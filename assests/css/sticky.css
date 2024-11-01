@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sticky_cover{
+    background-size: cover;
+    padding-top: 48px;
+	padding-bottom: 76px;
+}
+.sticky_cover_title{
+	text-align:center;
+}
+.sticky_cover_text{
+	padding:20px;
+}
+
+
+.sticky_cover {
+    /*background-color: #f6f6f6;*/
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    padding-bottom: 102px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:909px) {
+.sticky_cover {
+    min-height: 610px;
+    padding-top: 100px !important;
+    padding-left: 20px;
+    padding-right: 30px;
+}		
+}
+@media screen and (max-width:480px) {
+.sticky_cover {
+    min-height: 400px;
+}	
+}
+@media screen and (max-width:390px) {
+.sticky_cover {
+    min-height: 250px;
+	padding-bottom: 40px !important;
+	padding-top: 70px !important;
+	padding-left: 15px;
+    padding-right: 15px;
+}	
+}
